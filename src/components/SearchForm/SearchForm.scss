@@ -1,0 +1,24 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  input {
+    margin: 2rem auto 2rem auto;
+    padding: 0.5rem;
+    text-indent: 2px;
+    color: rgb(75, 75, 75);
+    border: 1px solid rgb(226, 226, 226);
+  }
+
+  button {
+    width: 25%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgb(0, 68, 255);
+    border: 1px solid #eee;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+  }
+}

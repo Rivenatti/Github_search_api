@@ -1,0 +1,33 @@
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App p {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0066ff;
+}
+
+@media only screen and (min-width: 480px) {
+  .App {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .App {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

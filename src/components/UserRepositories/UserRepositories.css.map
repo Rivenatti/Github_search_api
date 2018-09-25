@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAkB;EACpC,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAkB;EACpC,MAAM,EAAE,QAAQ;EAChB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,SAAS,EAAE,MAAM;CASlB;;AAjBD,AAWI,WAXO,CAUT,iBAAiB,CACf,CAAC,CAAC;EACA,KAAK,EAAE,OAAgB;EACvB,eAAe,EAAE,IAAI;EACrB,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "UserRepositories.scss"
+    ],
+    "names": [],
+    "file": "UserRepositories.css"
+}

@@ -1,0 +1,79 @@
+.user-profile {
+  display: block;
+  margin: 2rem auto;
+  background-color: #f3f3f3;
+  padding: 10px;
+  border: 1px solid #e2e2e2;
+}
+
+.user-profile .profile-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-profile .profile-card .left-side .avatar img {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.user-profile .profile-card .right-side {
+  width: 100%;
+  color: #fff;
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.user-profile .profile-card .right-side .username {
+  background-color: #0044ff;
+  border: 1px solid #e2e2e2;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  width: 100%;
+  margin: 0 auto 1rem auto;
+}
+
+.user-profile .profile-card .right-side .repos {
+  background-color: #e6b000;
+  border: 1px solid #e2e2e2;
+}
+
+.user-profile .profile-card .right-side .followers {
+  background-color: #e6b000;
+  border: 1px solid #e2e2e2;
+}
+
+.user-profile .profile-card .right-side .following {
+  background-color: #e6b000;
+  border: 1px solid #e2e2e2;
+}
+
+.user-profile .profile-card .right-side .view-profile {
+  background-color: #0044ff;
+  border: 1px solid #e2e2e2;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 2rem;
+  width: 75%;
+  margin: 1rem auto 0 auto;
+  padding: 0.3rem;
+}
+
+.user-profile .profile-card .right-side .view-profile a {
+  text-decoration: none;
+  color: #fff;
+}
+/*# sourceMappingURL=UserProfile.css.map */

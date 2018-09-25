@@ -1,0 +1,21 @@
+.repository {
+  width: 100%;
+  background-color: #f3f3f3;
+  border: 1px solid #e2e2e2;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.repository .repository--name a {
+  color: #008cff;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*# sourceMappingURL=UserRepositories.css.map */

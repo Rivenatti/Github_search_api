@@ -1,0 +1,33 @@
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form input {
+  margin: 2rem auto 2rem auto;
+  padding: 0.5rem;
+  text-indent: 2px;
+  color: #4b4b4b;
+  border: 1px solid #e2e2e2;
+}
+
+form button {
+  width: 25%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #0044ff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=SearchForm.css.map */
