@@ -68,6 +68,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
+  text-align: center;
 
   .repository--name {
     a {
@@ -76,4 +77,9 @@
       font-weight: bold;
     }
   }
+}
+
+.userGhost {
+  width: 20%;
+  text-align: center;
 }

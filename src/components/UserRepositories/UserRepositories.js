@@ -32,10 +32,11 @@ class UserRepositories extends Component {
         </div>
       );
     });
-
+    console.log(this.state.repos);
     return (
       <div>
         {/* CHECK IF STATE IS NOT EMPTY */}
+
         {this.state.repos.length > 0 ? (
           repositories
         ) : (
