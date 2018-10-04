@@ -1,3 +1,64 @@
+@mixin animation($dur, $del) {
+  animation: dotUp #{$dur}s ease-in-out infinite #{$del}s;
+}
+
+@keyframes dotUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-150%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes end {
+  100% {
+    body {
+      visibility: hidden;
+    }
+  }
+}
+
+.loading {
+  text-align: center;
+
+  h1 {
+    padding: 3rem 0;
+  }
+
+  .dot {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    // transform: translateY(-50%);
+  }
+
+  .dot1 {
+    @extend .dot;
+    background-color: red;
+    @include animation(1, 0);
+  }
+
+  .dot2 {
+    @extend .dot;
+    background-color: limegreen;
+    @include animation(1, 0.1);
+  }
+
+  .dot3 {
+    @extend .dot;
+    background-color: orangered;
+    @include animation(1, 0.2);
+  }
+}
+
 .repository {
   width: 100%;
   background-color: rgb(243, 243, 243);

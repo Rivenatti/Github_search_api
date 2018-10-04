@@ -18,6 +18,10 @@
   color: #0066ff;
 }
 
+.App .error {
+  color: red;
+}
+
 @media only screen and (min-width: 480px) {
   .App {
     width: 75%;
@@ -27,7 +31,21 @@
 
 @media only screen and (min-width: 768px) {
   .App {
-    width: 50%;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .App {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .App {
+    width: 25%;
     margin: 0 auto;
   }
 }

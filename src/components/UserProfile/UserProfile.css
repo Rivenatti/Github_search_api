@@ -44,36 +44,40 @@
   color: #fff;
   width: 100%;
   margin: 0 auto 1rem auto;
+  border-radius: 0.5rem;
 }
 
 .user-profile .profile-card .right-side .repos {
   background-color: #e6b000;
   border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
 }
 
 .user-profile .profile-card .right-side .followers {
   background-color: #e6b000;
   border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
 }
 
 .user-profile .profile-card .right-side .following {
   background-color: #e6b000;
   border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
 }
 
-.user-profile .profile-card .right-side .view-profile {
+.user-profile .profile-card .right-side a {
+  text-decoration: none;
+}
+
+.user-profile .profile-card .right-side a .view-profile {
   background-color: #0044ff;
   border: 1px solid #e2e2e2;
   border-radius: 25px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.3rem;
   width: 75%;
   margin: 1rem auto 0 auto;
-  padding: 0.3rem;
-}
-
-.user-profile .profile-card .right-side .view-profile a {
-  text-decoration: none;
+  padding: 0.5rem 0.5rem;
   color: #fff;
 }
 /*# sourceMappingURL=UserProfile.css.map */

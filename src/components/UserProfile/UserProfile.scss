@@ -36,35 +36,38 @@
         color: #fff;
         width: 100%;
         margin: 0 auto 1rem auto;
+        border-radius: 0.5rem;
       }
 
       .repos {
         background-color: rgb(230, 176, 0);
         border: 1px solid rgb(226, 226, 226);
+        border-radius: 0.5rem;
       }
 
       .followers {
         background-color: rgb(230, 176, 0);
         border: 1px solid rgb(226, 226, 226);
+        border-radius: 0.5rem;
       }
 
       .following {
         background-color: rgb(230, 176, 0);
         border: 1px solid rgb(226, 226, 226);
+        border-radius: 0.5rem;
       }
 
-      .view-profile {
-        background-color: rgb(0, 68, 255);
-        border: 1px solid rgb(226, 226, 226);
-        border-radius: 25px;
-        text-align: center;
-        font-size: 2rem;
-        width: 75%;
-        margin: 1rem auto 0 auto;
-        padding: 0.3rem;
-
-        a {
-          text-decoration: none;
+      a {
+        text-decoration: none;
+        .view-profile {
+          background-color: rgb(0, 68, 255);
+          border: 1px solid rgb(226, 226, 226);
+          border-radius: 25px;
+          text-align: center;
+          font-size: 1.3rem;
+          width: 75%;
+          margin: 1rem auto 0 auto;
+          padding: 0.5rem 0.5rem;
           color: #fff;
         }
       }
