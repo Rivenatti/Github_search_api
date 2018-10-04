@@ -1,4 +1,4 @@
-#### To check live verion click: [here](https://react-git.msulewski.pl/)
+#### To check live version click: [here](https://react-git.msulewski.pl/)
 
 ## Get started
 * Install all React project dependencies
