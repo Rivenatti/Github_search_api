@@ -11,5 +11,7 @@ Api in which user can type username of any github user and get information about
 * Start the development server with
 > npm start
 
+
+
 #
-The replication, conversion, duplication or divulgement of the whole application in order to benefit in any way from it is prohibited without the author's permission.
+The replication, conversion, duplication or divulgement of the whole application in order to benefit from it in any way is prohibited without the author's permission.
