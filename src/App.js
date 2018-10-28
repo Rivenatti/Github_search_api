@@ -15,14 +15,18 @@ class App extends Component {
   getUser = async e => {
     e.preventDefault();
 
-    // RESET STATE AFTER CLICKING THE BUTTON
+    // RESET THE PREVIOUS STATE
     this.setState({
       user: null
     });
+
+    // SET USERNAME
     const user = e.target.elements.username.value;
+
+    // CLEAR INPUT VALUE
     e.target.elements.username.value = "";
 
-    // IF USER EXISTS SET THE STATE
+    // IF USER EXISTS SET THE STATE, ELSE SET THE ERROR PROPERTY
     if (user) {
       await axios.get(`https://api.github.com/users/${user}`).then(
         res => {
@@ -31,8 +35,6 @@ class App extends Component {
             : this.setState({
                 error: "User has not updated any information yet."
               });
-
-          console.log(res.data);
         },
         error => {
           this.setState({ error: "User has not been found. Try again." });
@@ -42,7 +44,6 @@ class App extends Component {
   };
 
   render() {
-    console.log(this.state);
     return (
       <div>
         <header className="App-header">
@@ -50,6 +51,10 @@ class App extends Component {
         </header>
         <div className="App">
           <SearchForm getUser={this.getUser} />
+
+          {/* CHECK IS USERNAME HAS BEEN GIVEN */}
+          {/* IF NOT, DISPLAY "ENTER A USERNAME"*/}
+          {/* IF USER HAS NOT UPDATED ANY INFO YET, DISPLAY NULL USER ERROR */}
 
           {this.state.user ? (
             <div>

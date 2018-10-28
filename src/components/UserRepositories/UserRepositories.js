@@ -7,7 +7,7 @@ class UserRepositories extends Component {
     repos: []
   };
 
-  componentDidMount() {
+  componentDidMount = () => {
     // SET TIMEOUT FOR BETTER USER EXPERIENCE
     setTimeout(() => {
       axios
@@ -16,7 +16,7 @@ class UserRepositories extends Component {
           this.setState({ repos: res.data });
         });
     }, 1500);
-  }
+  };
 
   render() {
     // MAP ALL REPOSITORIES TO VARIABLE FROM THE STATE
@@ -32,7 +32,7 @@ class UserRepositories extends Component {
         </div>
       );
     });
-    console.log(this.state.repos);
+
     return (
       <div>
         {/* CHECK IF STATE IS NOT EMPTY */}
